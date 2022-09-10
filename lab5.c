@@ -1,12 +1,3 @@
-/***********************************
-* EECS 2031 - Lab 5		   
-* Filename: lab5.c	  	
-* Author: Adesanya, Kamal	    
-* Email: kamal124@my.yorku.ca	 	
-* Login ID: kamal124	
-************************************/
-
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -102,11 +93,6 @@ void printArray( struct extendableArray *a )
 }
 
 
-
-
-/************* DO NOT MODIFY ANYTHING ABOVE THIS LINE, *************/
-/************* EXCEPT THE HEADER CONTAINING YOUR INFO **************/
-
 /* Inserts integer d at the rear of the array, right behind the last element. */
 /* Assume all inputs are non-negative integers. */
 
@@ -131,16 +117,11 @@ a->size++;
 }
 
 
-
 /* Removes and returns the last element of the array (the element that was inserted last). */
 /* If the array is empty, call printErr() to display a message and return -1. */
 
-int removeLast( struct extendableArray *a )
-{
+int removeLast( struct extendableArray *a ){
 
-
-
-	/* Add your implementation here */
 int *temp,s,i=0;
 s=a->size;
 
